@@ -47,6 +47,8 @@ function login() {
 
             <div className="form-link">
               <a href="#" className="forgot-pass">Forgot password?</a>
+              {/* <a href="#" className="forgot-pass1">administretor log in?</a> */}
+
             </div>
 
             <div className="field button-field">
@@ -62,19 +64,11 @@ function login() {
         <div className="line"></div>
 
         {/* Media Options for Login */}
-        <div className="media-options">
-          <a href="#" className="field facebook">
-            <i className='bx bxl-facebook facebook-icon'></i>
-            <span>Login with Facebook</span>
-          </a>
+        <div className="admlog-in">
+        <a href="#" className="adm log-in">Admin login?</a>
         </div>
 
-        <div className="media-options">
-          <a href="#" className="field google">
-            <img src="#" alt="" className="google-img" />
-            <span>Login with Google</span>
-          </a>
-        </div>
+        
       </div>
 
       {/* Signup Form */}

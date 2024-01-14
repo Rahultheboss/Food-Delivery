@@ -123,12 +123,12 @@ form{
     color: #8b8b8b;
     padding: 0 15px;
 }
-.media-options a{
+.admlog-in a{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-a.facebook{
+/* a.facebook{
     color: #fff;
     background-color: #4267b2;
 }
@@ -141,28 +141,8 @@ a.facebook .facebook-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
-}
-.facebook-icon,
-img.google-img{
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-}
-img.google-img{
-    height: 20px;
-    width: 20px;
-    object-fit: cover;
-}
-a.google{
-    border: 1px solid #CACACA;
-}
-a.google span{
-    font-weight: 500;
-    opacity: 0.6;
-    color: #232836;
-}
+    background-color: #fff; */
+
 
 @media screen and (max-width: 400px) {
     .form{
